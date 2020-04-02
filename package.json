@@ -1,0 +1,25 @@
+{
+  "name": "d4id-projet01",
+  "version": "1.0.0",
+  "description": "premier testpackage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haeliz/D4ID-projet01.git"
+  },
+  "keywords": [
+    "node-tippy-training"
+  ],
+  "author": "Lisa Ithurritze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Haeliz/D4ID-projet01/issues"
+  },
+  "homepage": "https://github.com/Haeliz/D4ID-projet01#readme",
+  "dependencies": {
+    "tippy.js": "^6.1.0"
+  }
+}

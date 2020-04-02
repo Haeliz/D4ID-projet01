@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Coucou</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="node_modules/tippy.js/dist/tippy.css">
+  </head>
+  <body>
+    <h1>Eh coucou tout le monde</h1>
+    <p>Pico est le prénom de mon chocobo imaginaire alors c'est quand même assez rigolo que ce programme s'appelle comme ça</p>
+
+    <button data-tippy-content="Tooltip">Il est trop mignon</button>
+      <button data-tippy-content="Another Tooltip">Ce n'est qu'une dinde</button>
+    	<img src="images/chocobo.jpg" alt="une grosse dinde">
+
+      <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+            <script src="node_modules/tippy.js/dist/tippy-bundle.umd.js"></script>
+            <script type="text/javascript">
+              tippy('[data-tippy-content]');
+              </script>
+  </body>
+</html>
